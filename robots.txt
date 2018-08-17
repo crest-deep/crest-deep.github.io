@@ -1,0 +1,4 @@
+Sitemap: https://crest-deep.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: crest-deep.github.io
