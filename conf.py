@@ -30,7 +30,7 @@ BLOG_DESCRIPTION = "Crest Deep project website"  # (translatable)
 # Nikola is multilingual!
 #
 # Currently supported languages are:
-#
+    #
 # en        English
 # ar        Arabic
 # az        Azerbaijani
@@ -135,16 +135,18 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 NAVIGATION_LINKS = {
     DEFAULT_LANG: 
     (
+        ("/team/", "The Team"),
+        ("/publications/", "Publications"),
         #("/archive.html", "Archive"),
         #("/categories/", "Tags"),
         #("/rss.xml", "RSS feed"),
-        (
-            (
-                ('/fruits/apple', 'Apple'),
-                ('/fruits/orange', 'Orange'),
-            ),
-        'Fruits'
-        ),
+        #(
+        #    (
+        #        ('/team/lalal', 'Apple'),
+        #        ('/fruits/banana', 'Banana')
+        #    ),
+        #    'Fruits'
+        #),
     ),
 }
 
@@ -573,7 +575,7 @@ FRONT_INDEX_HEADER = {
 # rel_path: a relative URL to the current page/post (default)
 # full_path: a URL with the full path from the root
 # absolute: a complete URL (that includes the SITE_URL)
-# URL_TYPE = 'rel_path'
+URL_TYPE = 'full_path'
 
 # Extension for RSS feed files
 # RSS_EXTENSION = ".xml"
