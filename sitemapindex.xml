@@ -6,19 +6,11 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>https://crest-deep.github.io/galleries/ikebana/rss.xml</loc>
-  <lastmod>2018-08-17T07:22:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://crest-deep.github.io/galleries/rss.xml</loc>
-  <lastmod>2018-08-17T05:06:00Z</lastmod>
- </sitemap>
- <sitemap>
   <loc>https://crest-deep.github.io/rss.xml</loc>
-  <lastmod>2018-08-17T03:21:00Z</lastmod>
+  <lastmod>2018-09-25T07:43:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://crest-deep.github.io/sitemap.xml</loc>
-  <lastmod>2018-08-21T06:57:00Z</lastmod>
+  <lastmod>2018-09-25T07:43:00Z</lastmod>
  </sitemap>
 </sitemapindex>

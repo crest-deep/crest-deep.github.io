@@ -7,42 +7,30 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://crest-deep.github.io/</loc>
-  <lastmod>2018-08-21T06:57:00Z</lastmod>
+  <lastmod>2018-09-25T07:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://crest-deep.github.io/archive.html</loc>
-  <lastmod>2018-08-21T06:54:00Z</lastmod>
+  <lastmod>2018-09-25T07:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://crest-deep.github.io/blog/</loc>
-  <lastmod>2018-08-17T03:21:00Z</lastmod>
+  <lastmod>2018-09-25T07:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://crest-deep.github.io/categories/</loc>
-  <lastmod>2018-08-17T03:21:00Z</lastmod>
+  <lastmod>2018-09-25T07:43:00Z</lastmod>
  </url>
  <url>
-  <loc>https://crest-deep.github.io/fruits/apple/</loc>
-  <lastmod>2018-08-17T03:21:00Z</lastmod>
- </url>
- <url>
-  <loc>https://crest-deep.github.io/galleries/</loc>
-  <lastmod>2018-08-17T07:22:00Z</lastmod>
- </url>
- <url>
-  <loc>https://crest-deep.github.io/galleries/ikebana/</loc>
-  <lastmod>2018-08-17T07:22:00Z</lastmod>
- </url>
- <url>
-  <loc>https://crest-deep.github.io/listings/</loc>
-  <lastmod>2018-08-17T03:21:00Z</lastmod>
+  <loc>https://crest-deep.github.io/events/2018.11.sympo/</loc>
+  <lastmod>2018-09-25T07:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://crest-deep.github.io/publications/</loc>
-  <lastmod>2018-08-21T06:55:00Z</lastmod>
+  <lastmod>2018-09-25T07:43:00Z</lastmod>
  </url>
  <url>
   <loc>https://crest-deep.github.io/team/</loc>
-  <lastmod>2018-08-21T06:57:00Z</lastmod>
+  <lastmod>2018-09-25T07:43:00Z</lastmod>
  </url>
 </urlset>
