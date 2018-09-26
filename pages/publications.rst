@@ -8,11 +8,14 @@
 .. type: text
 .. hidetitle: True
 
-================
-Publication List
-================
 
-.. publication_list:: yokota.bib matsu.bib murata.bib
+
+======================================
+Publications supported by the project:
+======================================
+
+
+.. publication_list:: shinoda.bib yokota.bib matsu.bib murata.bib
    :style: unsrt
    :detail_page_dir:
    :highlight_author: 

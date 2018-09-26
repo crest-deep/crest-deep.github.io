@@ -1323,7 +1323,7 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.c
 # extracting unique titles at the top of your document and turning
 # them into metadata. This surprises a lot of people, and setting
 # this option to True will prevent it.
-# NO_DOCUTILS_TITLE_TRANSFORM = False
+NO_DOCUTILS_TITLE_TRANSFORM = True
 
 # If you don’t like slugified file names ([a-z0-9] and a literal dash),
 # and would prefer to use all the characters your file system allows.
