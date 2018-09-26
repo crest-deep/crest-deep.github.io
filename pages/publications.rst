@@ -12,7 +12,7 @@
 Publication List
 ================
 
-.. publication_list:: publications.bib
+.. publication_list:: yokota.bib matsu.bib murata.bib
    :style: unsrt
    :detail_page_dir:
    :highlight_author: 
