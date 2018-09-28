@@ -140,13 +140,12 @@ NAVIGATION_LINKS = {
         #("/archive.html", "Archive"),
         #("/categories/", "Tags"),
         #("/rss.xml", "RSS feed"),
-        #(
-        #    (
-        #        ('/team/lalal', 'Apple'),
-        #        ('/fruits/banana', 'Banana')
-        #    ),
-        #    'Fruits'
-        #),
+        (
+            (
+                ('/events/2018.11.sympo/', 'CREST-Deep Symposium Nov 2018'),
+            ),
+            'Events'
+        ),
     ),
 }
 
