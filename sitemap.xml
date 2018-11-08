@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://crest-deep.github.io/</loc>
-  <lastmod>2018-09-28T01:51:00Z</lastmod>
+  <lastmod>2018-11-07T06:28:00Z</lastmod>
  </url>
  <url>
   <loc>https://crest-deep.github.io/archive.html</loc>
@@ -28,10 +28,6 @@
  <url>
   <loc>https://crest-deep.github.io/events/2018.11.sympo_posters/</loc>
   <lastmod>2018-10-23T04:42:00Z</lastmod>
- </url>
- <url>
-  <loc>https://crest-deep.github.io/listings/</loc>
-  <lastmod>2018-09-28T01:51:00Z</lastmod>
  </url>
  <url>
   <loc>https://crest-deep.github.io/publications/</loc>
