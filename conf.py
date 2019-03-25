@@ -143,7 +143,7 @@ NAVIGATION_LINKS = {
         (
             (
                 ('/events/2018.11.sympo/', 'CREST-Deep Symposium Nov 2018'),
-		('/events/20190307_workshop/', 'I2R-TokyoTech Co-Workshop on Deep Learning'), 
+		('/events/20190307_workshop/', 'I2R-TokyoTech Co-Workshop on Deep Learning Mar 2019'), 
             ),
             'Events'
         ),
