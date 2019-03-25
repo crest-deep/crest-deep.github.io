@@ -1,0 +1,141 @@
+<!--
+.. title: DL2.0 Unit, I2R-TokyoTech Co-workshop on Deep Learning 
+.. slug: 20190307_workshop
+.. date: 2019/03/12
+.. tags:
+.. category:
+.. link:
+.. type: text
+.. hidetitle: True
+.. author: Pablo Cervantes
+-->
+<!DOCTYPE html>
+<html>
+<section >
+    <h1>DL2.0 Unit, I2R-TokyoTech Co-workshop on Deep Learning</h1>
+    <p>
+        This workshop focuses on topics that accelerate state of the art deep learning algorithms with the aim of large GPU clusters (e.g., 4000 GPUs). Specifically, the speakers will introduce second-order methods that enable fast and parallel training of deep neural networks and how they can be applied to accelerate HE and GANs. We will also discuss other topics that are closely related to DL2.0’s roadmap, including learning with less data, hardware implementation of deep networks, model compression and so on.
+    </p>
+    <a href="/events/20190307_workshop_schedule/">[program]</a> 
+</section>
+<section>
+<table class=table>
+    <col width="15%">
+    <thead>
+        <tr>
+            <td>Speaker</td>
+            <td>Abstract of Talk</td>
+            <td>Bio of Speaker</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Koichi Shinoda<br> (Tokyo Tech)</td> 
+            <td><b>Introductory Talk: JST CREST Project </b><br>
+                Title: Fast and cost-effective deep learning algorithm platform for video processing in social infrastructure. <br>
+                <br>
+                We aim to establish a high-performance real-time 
+                deep learning algorithm basis for detecting objects 
+                and anomalies from a large amount of high definition
+                 videos recorded by drive recorders, surveillance cameras. 
+                 Computer science researchers specializing in different 
+                 levels from architectures to applications including GPU fast computation,
+                  parallel computation, machine learning, and
+                compactization, collaborate together.</td>
+            <td>Koichi Shinoda received the B.S. and M.S. degrees from the University of Tokyo, Tokyo,
+                 Japan in 1987 and 1989, respectively, both in physics, and the D. Eng. Degree in 
+                 computer science from the Tokyo Institute of Technology, Japan, in 2001. In 1989, he
+                  joined NEC Corporation, Japan, where he was involved in research on automatic speech 
+                  recognition. From 1997 to 1998, he was a Visiting Scholar with Bell Labs, 
+                  Lucent Technologies, Murray Hill, NJ. From June 2001 to September 2001,
+                   he was a Principal Researcher with Multimedia Research Laboratories, 
+                   NEC Corporation. From October 2001 to March 2002, he was an Associate Professor 
+                   with the University of Tokyo, Japan. He is currently a Professor with the Tokyo 
+                   Institute of Technology. His research interests include speech recognition, 
+                   video information retrieval, statistical pattern recognition, and human interfaces.
+                    He received the Awaya Prize from the Acoustic Society of Japan in 1997 and 
+                    the Excellent Paper Award from the IEICE in 1998. He was Publicity Chair in
+                     INTERSPEECH2010, Video Program Co-Chair in ACM Multimedia 2012. 
+                     Dr. Shinoda is a senior member of IEEE, IEICE. He is a member of 
+                     ACM, IPSJ, JSAI, and ASJ. He is currently an associate editor 
+                     of Computer Speech and Language and Speech Communication, Elsevier.</td>
+        </tr>
+        <tr>
+            <td>Assoc Prof Rio Yokota<br> (Tokyo Tech)</td>
+            <td><b>Second Order Optimization for Distributed Data-parallel Deep Learning on 4000 GPUs </b><br>
+                <br>
+                As the size of deep neural networks and the data they consume grow rapidly, it is becoming increasingly important to parallelize their training. Computing on massively parallel computers forces the optimization algorithms for deep learning to operate in a regime they were not originally designed for. Stochastic gradient descent relies on the mini-batches being small in order to generalize well to data it was not trained on. The increase in parallel processes leads to an increase in the batch size and deprives the SGD of the stochasticity necessary for the generalization. In this regime, techniques such as batch normalization also behave very differently, and initialization and normalization of the weights and regularization of the loss become more important than before. We show that when enough care is taken for the initialization, normalization, and regularization, second order optimization methods start to show their inherent advantage over first order methods.
+            </td>
+            <td>Rio Yokota is an Associate Professor at the Global Scientific Information and Computing Center at Tokyo Institute of Technology. Dr. Yokota’s research interests include developing scalable hierarchical algorithms for scientific computing. Dr. Yokota is a recipient of the ACM Gordon Bell prize (price performance) in 2009. His most recent research interests are at the intersection of high performance computing and deep learning. Dr. Yokota is currently leading a team that is training ResNet-50 on ImageNet-1k on 4000+ GPUs on the ABCI supercomputer in Japan.
+                </td>
+        </tr>
+        <tr>
+            <td>Asst Prof Nakamasa Inoue<br> (Tokyo Tech)</td>
+            <td><b>Towards Large-Scale Few-Shot Learning</b>
+            <br>
+            <br>
+            Recent studies on robustness of Convolutional Neural Network (CNN) shows that CNNs are highly vulnerable towards adversarial attacks. Meanwhile, smaller sized CNN models with no significant accuracy loss are being introduced to mobile devices. However, only the accuracy on standard datasets is reported along with such research. The wide deployment of smaller models on millions of mobile devices stresses importance of their robustness. In this research, we study how robust such models are with respect to state-of-the-art compression techniques such as quantization. Our contributions include: (1) insights to achieve smaller models and robust models (2) a compression framework which is adversarial-aware. In the former, we discovered that compressed models are naturally more robust than compact models. This provides an incentive to perform compression rather than designing compact models. Additionally, the latter provides benefits of increased accuracy and higher compression rate, up to 90x.</td>
+            <td>Tsuyoshi Murata is an associate professor of the department of computer science in Tokyo Institute of Technology.
+                    He has been doing research on artificial intelligence, especially complex networks, machine learning and data mining. He served as one of the directors of The Japanese Society for Artificial Intelligence from 2013 to 2015. 
+                    <br>
+                    <a href="http://www.net.c.titech.ac.jp/">URL: http://www.net.c.titech.ac.jp/</a></td>
+        </tr>
+        <tr>
+                <td>Assoc Prof Hiroki Nakahara<br> (Tokyo Tech)</td>
+                <td><b>Efficient FPGA Implementation for Deep Learning Based Applications</b>
+                <br>
+                <br>In this talk, we introduce an FPGA implementation techniques for efficient realization of deep learning. Then, we show recent research result on computer vision applications: such as object detection, semantic segmentation, and pose estimation.
+                </td>
+                <td>Hiroki Nakahara received the B.E., M.E., and Ph.D. degrees in computer 
+                        science from Kyushu Institute of Technology, Fukuoka, Japan, in 2003, 
+                        2005, and 2007, respectively. He has held research/faculty positions at 
+                        Kyushu Institute of Technology, Iizuka, Japan, Kagoshima University, 
+                        Kagoshima, Japan, and Ehime University, Ehime, Japan. Now, he is an 
+                        associate professor at Tokyo Institute of Technology, Japan. He was the 
+                        Workshop Chairman for the International Workshop on Post-Binary ULSI 
+                        Systems (ULSIWS) in 2014, 2015, 2016 and 2017, respectively. He searved the Program Chairman for the International Symposium on 8th 
+                        Highly-Efficient Accelerators and Reconfigurable Technologies (HEART) in 2017. He received the 8th IEEE/ACM MEMOCODE Design Contest 1st Place Award in 2010, the SASIMI Outstanding Paper Award in 2010, IPSJ 
+                        Yamashita SIG Research Award in 2011, the 11st FIT Funai Best Paper 
+                        Award in 2012, the 7th IEEE MCSoC-13 Best Paper Award in 2013, and the ISMVL2013 Kenneth C. Smith Early Career Award in 2014, respectively. His research interests include logic synthesis, reconfigurable architecture, digital signal processing, embedded systems, and machine learning. He is a member of the IEEE, the ACM, and the IEICE.
+                        </td>
+            </tr>
+            <tr>
+                    <td>Assoc Prof Taiji Suzuki<br> (Tokyo Tech)</td>
+                    <td><b>Generalization error analysis of deep learning and its application to model compression</b>
+                    <br>
+                    <br>In this talk, we talk about generalization error analysis of deep
+                    learning and its application to a model compression problem for deep neural network models. The generalization analysis is based on the eigenvalue distribution of the kernel functions defined in the internal layers. Based on the analysis, we develop a simple compression algorithm for the neural network which is applicable to wide range of network models. Moreover, we also introduce a functional gradient method for constructing ResNet-type neural network.
+                    
+                    </td>
+                    <td><a href="http://ibis.t.u-tokyo.ac.jp/suzuki/">URL: http://ibis.t.u-tokyo.ac.jp/suzuki/</a></td>
+                </tr>
+            <tr>
+                <td>Asst Prof Nakamasa Inoue<br> (Tokyo Tech)</td>
+                <td><b>Towards Large-Scale Few-Shot Learning</b>
+                <br>
+                <br> In this talk we present our recent work on few-shot
+                adaptation for multimedia semantic indexing. We also present our plan and progress towards large-scale few-shot learning.
+                </td>
+                <td>Nakamasa Inoue received his B.E., M.A., and Ph.D. degrees from
+                        Tokyo Institute of Technology in 2009, 2011, and 2014, respectively.
+                        He is currently an assistant professor of Tokyo Institute of
+                        Technology, Japan. His research interests lie in multimedia processing
+                        including video retrieval, image recognition, and speech recognition.</td>
+            </tr>
+            <tr>
+                    <td>Dr Aleksandr Drozd<br> (Tokyo Tech)</td>
+                    <td><b>Deep Learning Frameworks Portability Study: Post-K Perspective </b>
+                    <br>
+                    <br>We conduct a software architecture study for several popular deep learning (DL) frameworks and low-level deep learning primitives libraries to estimate their portability to future hardware platforms. The main target is the Post-K, exa-scale class supercomputer to be deployed in Japan by 2021. It is based on A64FX CPUs with extended ARM instruction set. We try, however, to make our analysis as generic as possible for it to be useful for other hardware architectures.
+                    </td>
+                    <td>Aleksandr Drozd (Ph.D.) is a researcher is at the Department of 
+                            Mathematical and Computing Science, School of Computing, Tokyo Institute 
+                            of Technology. Hi is also a visiting researcher at the AIST-Tokyo Tech 
+                            Real World Big-Data Computation Open Innovation Laboratory (RWBC-OIL). 
+                            His research interests lie at the intersection of high performance 
+                            computing (HPC) and artificial intelligence (AI), especially areas like 
+                            natural language processing and artificial life.</td>
+            </tr>
+    </tbody>
+</section>
+</html>
