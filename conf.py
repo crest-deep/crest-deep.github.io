@@ -24,7 +24,7 @@ SITE_URL = "https://crest-deep.github.io/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://crest-deep.gihub.io/"
-BLOG_EMAIL = "alex@blackbird.pw"
+BLOG_EMAIL = "cervantes@ks.cs.titech.ac.jp"
 BLOG_DESCRIPTION = "Crest Deep project website"  # (translatable)
 
 # Nikola is multilingual!
@@ -137,6 +137,7 @@ NAVIGATION_LINKS = {
     (
         ("/team/", "The Team"),
         ("/publications/", "Publications"),
+        ("/Meetings/", "Meetings"),
         #("/archive.html", "Archive"),
         #("/categories/", "Tags"),
         #("/rss.xml", "RSS feed"),
