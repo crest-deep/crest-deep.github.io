@@ -2,7 +2,7 @@
 __pycache__
 cache
 output
-.vscode
+
 .doit.*
 .doit.db
 .doit.db.db
