@@ -137,14 +137,20 @@ NAVIGATION_LINKS = {
     (
         ("/team/", "The Team"),
         ("/publications/", "Publications"),
-        ("/Meetings/", "Meetings"),
+        (
+            (
+                ("/Meetings/Meetings2019/", "2019"),
+                ("/Meetings/Meetings2020/", "2020")
+            ),
+            "Meetings"
+        ),
         #("/archive.html", "Archive"),
         #("/categories/", "Tags"),
         #("/rss.xml", "RSS feed"),
         (
             (
                 ('/events/2018.11.sympo/', 'CREST-Deep Symposium Nov 2018'),
-		('/events/20190307_workshop/', 'I2R-TokyoTech Co-Workshop on Deep Learning Mar 2019'), 
+		        ('/events/20190307_workshop/', 'I2R-TokyoTech Co-Workshop on Deep Learning Mar 2019'), 
             ),
             'Events'
         ),
